@@ -8,4 +8,12 @@
         <item name="android:textStyle">bold|italic</item>
         <item name="android:textColor">@color/green</item>
     </style>
+
+    <style name="number_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/abril_fatface</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">150sp</item>
+    </style>
 </resources>
