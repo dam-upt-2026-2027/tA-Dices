@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "pt.uptomar.dam2026.dices"
-        minSdk = 37
+        minSdk = 31
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -28,6 +28,11 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        // ativar o 'ViewBinding'
+        viewBinding = true
     }
 }
 
