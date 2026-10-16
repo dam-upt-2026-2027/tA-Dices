@@ -17,7 +17,7 @@
     <TextView
         android:id="@+id/dice_number"
         style="@style/number_style"
-        android:text="6"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@id/dice_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dice_number"
-        app:srcCompat="@drawable/dice_6" />
+        app:srcCompat="@drawable/empty_dice" />
 
     <Button
         android:id="@+id/bt"
